@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <meta name="theme-color" content="#1b1730" />
+  <title>Aetheria</title>
+</head>
+<body>
+  <main id="shell">
+    <div id="screen-wrap"><canvas id="screen" width="160" height="144" aria-label="Aetheria game screen"></canvas></div>
+    <div id="touch" aria-hidden="true">
+      <div class="dpad">
+        <button data-key="up" class="d up"></button>
+        <button data-key="left" class="d left"></button>
+        <button data-key="right" class="d right"></button>
+        <button data-key="down" class="d down"></button>
+        <span class="d hub"></span>
+      </div>
+      <div class="mid">
+        <button data-key="start" class="pill">MENU</button>
+      </div>
+      <div class="ab">
+        <button data-key="b" class="btn b">B</button>
+        <button data-key="a" class="btn a">A</button>
+      </div>
+    </div>
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
